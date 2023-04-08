@@ -164,7 +164,7 @@
               class="contact-icons"></a>
         </div>
       </div>
-      <form action="" class="contact-form">
+      <form method="POST" action="https://brogrammers.live/contact" class="contact-form">
         <div class="contact-name">
           <label for="name" class="contact-label">Enter Name</label>
           <input type="text" class="contact-input" id="name" name="name" placeholder="David">
@@ -175,8 +175,8 @@
         </div>
         <div class="contact-message">
           <label for="message" class="contact-label">Enter Message</label>
-          <textarea class="contact-input" id="message" rows="3"
-            placeholder="Hello Mayank! I want to say that..."></textarea>
+          <textarea name="message" class="contact-input" id="message" rows="3"
+            placeholder="add #M then write ur msg to me "></textarea>
         </div>
         <button type="submit" class="contact-submit">
           Send Message
